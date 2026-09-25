@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/abcd1234/register" id="MemberRegisterForm" method="post">
+<input type="hidden" name="_method" value="POST"/>
+<table class="TappyTable">
+<tr>
+<th></th>
+<th>Mon</th>
+<th>Tue</th>
+</tr>
+<tr>
+<th>1</th>
+<td>
+<input type="hidden" name="data[Attendance][0][board_row_id]" value="100"/>
+<input type="hidden" name="data[Attendance][0][board_column_id]" value="200"/>
+<input type="hidden" name="data[Attendance][0][is_valied]" value="0"/>
+<input type="checkbox" name="data[Attendance][0][is_valied]" value="1"/>
+</td>
+<td>
+<input type="hidden" name="data[Attendance][1][board_row_id]" value="100"/>
+<input type="hidden" name="data[Attendance][1][board_column_id]" value="201"/>
+<input type="hidden" name="data[Attendance][1][is_valied]" value="0"/>
+<input type="checkbox" name="data[Attendance][1][is_valied]" value="1"/>
+</td>
+</tr>
+<tr>
+<th>2</th>
+<td>
+<input type="hidden" name="data[Attendance][2][board_row_id]" value="101"/>
+<input type="hidden" name="data[Attendance][2][board_column_id]" value="200"/>
+<input type="hidden" name="data[Attendance][2][is_valied]" value="0"/>
+<input type="checkbox" name="data[Attendance][2][is_valied]" value="1"/>
+</td>
+<td>
+<input type="hidden" name="data[Attendance][3][board_row_id]" value="101"/>
+<input type="hidden" name="data[Attendance][3][board_column_id]" value="201"/>
+<input type="hidden" name="data[Attendance][3][is_valied]" value="0"/>
+<input type="checkbox" name="data[Attendance][3][is_valied]" value="1"/>
+</td>
+</tr>
+</table>
+<input name="data[Member][name]" maxlength="20" type="text"/>
+<input name="data[Member][password]" type="password"/>
+<textarea name="data[Comment][body]"></textarea>
+</form>
+</body>
+</html>
